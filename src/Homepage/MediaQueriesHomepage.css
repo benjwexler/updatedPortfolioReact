@@ -1,0 +1,142 @@
+@media only screen and (max-height: 640px) {
+    #picContainer {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-height: 695px) and (min-width: 415px) {
+    .option {
+        margin-bottom: 20px;
+      }
+
+      #nameContainer {
+          margin-top: 0px;
+          font-size: 40px;
+      }
+
+      #picContainer {
+        margin-top: 0px;
+        width: 120px;
+        height: 120px;
+  
+      }
+
+      #title {
+          font-size: 25px;
+      }
+  }
+
+
+
+  @media only screen and (max-height: 618px) and (min-width: 321px) {
+    #linkContainer {
+        display: none;
+    }
+
+    /* .option {
+        font-size: 14px;
+       } */
+
+  }
+
+  @media only screen and (max-height: 500px) and (min-width: 321px) {
+    #linkContainer {
+        display: none;
+    }
+    .option {
+       font-size: 12px;
+      }
+  }
+
+@media only screen and (max-width: 414px) and (max-height: 736px) {
+    .option {
+      margin-bottom: 20px;
+    }
+
+    #nameContainer {
+        font-size: 40px
+    }
+
+    #section1 {
+        /* border: 2px solid black; */
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    #picContainer {
+      /* margin-top: 0px; */
+      width: 120px;
+      height: 120px;
+
+    }
+
+  }
+
+  @media only screen and (min-width: 1300px) {
+    #bottomContainer { 
+      /* max-width: 450px; */
+
+
+    }
+}
+
+  
+
+  @media only screen and (max-width: 375px) {
+    #picContainer {
+      margin-top: 0px;
+
+
+    }
+
+
+    #nameContainer {
+        margin-top: 0px;
+    }
+
+    #bottomContainer {
+        width: 53%;
+    }
+    .option {
+
+        width: 190px;
+    }
+  }
+
+  @media only screen and (max-width: 411px) {
+    #title {
+      font-size: 24px;
+    }
+
+    .fa-angle-double-down {
+        font-size: 26px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    #title {
+      font-size: 18px;
+    }
+
+    #bottomContainer {
+        width: 45%;
+    }
+
+    #nameContainer {
+        font-size: 36px;
+    }
+
+    .option {
+        margin-bottom: 15px;
+        width: 180px;
+        padding-top: 4px;
+    padding-bottom: 4px;
+      }
+
+      #picContainer {
+          width: 120px;
+          height: 120px;
+          /* margin-top: -3px; */
+      }
+  }

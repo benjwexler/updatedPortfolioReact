@@ -1,0 +1,19 @@
+.fa-linkedin:hover {
+    color: #0077B5;
+    background: rgba(255, 255, 255, 0.824);
+    background: rgba(255, 255, 255, 0.913);
+    cursor: pointer;
+}
+
+.fa-github-square:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.824);
+    background: rgba(255, 255, 255, 0.913);
+    cursor: pointer;
+}
+
+.option:hover {
+    background: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+
+}
