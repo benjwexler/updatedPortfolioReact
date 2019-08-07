@@ -19,7 +19,7 @@ a:visited {
 
 #section1 {
     margin: 0;
-    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(pics/cityBG.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(/pics/cityBG.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
