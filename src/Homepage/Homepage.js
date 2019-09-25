@@ -1,7 +1,16 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import Modal from "../Modal";
+import ProjectsModal from "../Modal/Modal.Projects";
 
 const homepage = props => {
+const [isModalOpen, setIsModalOpen] = useState(true);
+
   return (
+    <div style={{opacity: isModalOpen ? .8 : 1}}>
+    <ProjectsModal
+      isOpen={isModalOpen}
+      setIsOpen={setIsModalOpen}
+    />
     <div id="section1">
       <div className="thirds">
         <div id="nameContainer">Ben Wexler</div>
@@ -11,11 +20,22 @@ const homepage = props => {
         </div>
       </div>
       <div className="thirds">
-        <div className="option">
-          <a href="https://developedbywex.wordpress.com/">About</a>
+        <div 
+          // onClick={() => setIsModalOpen(true)}
+          className="option"
+        >
+          {/* <a
+            // href="https://developedbywex.wordpress.com/"
+            
+          > */}
+          About
+          {/* </a> */}
         </div>
-        <div className="option">
-          <a href="https://developedbywex.wordpress.com/about-me/">Projects</a>
+        <div
+          className="option"
+          onClick={() => setIsModalOpen(true)}
+        >
+          Projects
         </div>
 
         <div className="option">
@@ -44,6 +64,7 @@ const homepage = props => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
